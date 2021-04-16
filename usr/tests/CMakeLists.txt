@@ -9,6 +9,12 @@ add_executable(hello++ hello++.cpp)
 add_executable(hellof hellof.f90)
 #add_executable(pi pi.go)
 
+add_executable(test_brk test_brk.c)
+add_executable(test_write test_write.c)
+add_executable(test_mmap test_mmap.c)
+add_executable(test_readwritev test_readwritev.c)
+add_executable(test_ioctl test_ioctl.c)
+
 add_executable(test-malloc test-malloc.c)
 add_executable(test-malloc-mt test-malloc-mt.c)
 target_compile_options(test-malloc-mt PRIVATE -pthread)
